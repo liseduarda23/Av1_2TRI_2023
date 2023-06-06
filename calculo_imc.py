@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 sg.theme("SystemDefaultForReal")
 
 layout = [
-  [sg.Push(), sg.Text("Indice de massa corporea"), sg.Push()],
+  [sg.Push(), sg.Text("Indice de massa corpórea"), sg.Push()],
   [sg.Text("Massa: "),sg.Input(key="-MASS-",size=(30, 1))],
   [sg.Text("Altura: "),sg.Input(key="-HEIGHT-",size=(30, 1))],
   [sg.Push(), sg.Button("Calcular"), sg.Push()],
